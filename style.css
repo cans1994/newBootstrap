@@ -11,7 +11,7 @@ body {
 }
 
 #main {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 @media (max-width: 992px) {
   #main {
@@ -25,9 +25,13 @@ body {
   flex-flow: row wrap;
   width: 100%;
   padding: 30px;
-  background: linear-gradient(
-    rgb(146, 148, 115),
-    rgb(203, 206, 194),
-    rgb(235, 235, 217)
-  );
+  background: white;
+}
+
+img {
+  width: 50%;
+}
+
+.headerDroit {
+  position: relative;
 }
