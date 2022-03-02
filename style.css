@@ -9,7 +9,7 @@ body {
   color: #444444;
 }
 
-.container {
+.header-left {
   display: flex;
   flex-direction: column;
   flex-flow: row wrap;
@@ -22,7 +22,7 @@ img {
   width: 50%;
 }
 
-.container .header-right {
+.header-right {
   position: relative;
   padding: 40px;
 }
